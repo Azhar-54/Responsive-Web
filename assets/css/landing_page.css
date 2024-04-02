@@ -1,0 +1,223 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+#hero {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/*
+Section Navbar
+*/
+
+.navbar {
+  background-color: whitesmoke;
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-block: 1rem;
+  top: 0;
+  background: white;
+}
+.logo {
+  flex: 1;
+}
+.logo img {
+  width: 127px;
+  height: 35px;
+  top: 45px;
+  left: 150px;
+  gap: 0px;
+  opacity: 0px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.menu ul {
+  padding-left: 0;
+  justify-content: center;
+  gap: 2rem 1rem;
+}
+
+.menu .btn-sign {
+  text-decoration: none;
+  width: 86px;
+  height: 44px;
+  top: 45px;
+  left: 1204px;
+  background-color: #5e50a1;
+  color: white;
+  border-radius: 4px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.menu .btn-login {
+  text-decoration: none;
+  width: 87px;
+  height: 44px;
+  top: 45px;
+  left: 1101px;
+  border: 1px solid #5e50a1;
+  border-radius: 3px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.menu .btn-login:hover {
+  background-color: #5e50a1;
+  color: white;
+}
+
+.menu a.btn-sign:hover {
+  border: 1px solid #5e50a1;
+  background-color: white;
+  color: #5e50a1;
+}
+
+.article-content p{
+  margin-bottom:45vh;
+}
+
+.article-content .btn-article {
+  text-decoration: none;
+  margin-top: 300px;
+  width: 210px;
+  height: 63.11px;
+  background-color: #5e50a1;
+  color: white;
+  border-radius: 4px;
+  padding: 15px 10px ;
+  cursor: pointer;
+}
+
+.article-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.article-content ul {
+  list-style: none;
+  flex-basis: 50%;
+}
+
+.article-content ul li img{
+  margin-right: 10px;
+}
+
+
+#opinion-section h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.opinion-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+
+.opinion-container h1 {
+  display: block;
+}
+
+.opinion-item {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 250px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.opinion-item img {
+  width: 120px;
+}
+
+/* near end */
+.near-end {
+  margin: 20px 20px;
+  width: 1140px;
+  height: 227px;
+  top: 2820px;
+  left: 150px;
+  border-radius: 40px 8px 40px 8px;
+  opacity: 0px;
+  background-color: #5e50a1;
+  box-sizing: border-box;
+}
+.near-end h1 {
+  right: 90px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: left;
+}
+
+.near-end img {
+position: relative;
+bottom:150px;
+
+}
+
+.near-end button {
+  bottom: 150px;
+  float: right ;
+  position: relative;
+  padding: 15px;
+  text-decoration: none;
+  color: #5e50a1;
+  background-color: white;
+}
+
+.near-end button:hover{
+  color: white;
+  background-color: #5e50a1;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  background: rgba(94, 80, 161, 1);
+  text-align: left;
+}
+.bottom {
+  display: block;
+  position: relative;
+  padding-bottom: 12px;
+}
+.bottom p {
+  margin-top: 20px;
+  display: inline-block;
+}
+.bottom ul {
+  list-style: none;
+  display: flex;
+  float: right;
+  justify-content: center;
+  gap: 2rem 1rem;
+}
+
+.bottom ul li {
+  margin-bottom: 90px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}

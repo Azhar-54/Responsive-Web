@@ -1,0 +1,53 @@
+@import url(./topbar.css);
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+.jumbotron {
+  width: 100%;
+  height: 200px;
+  top: 170px;
+  left: 150px;
+  border-radius: 8px 8px 0px 0px;
+  background-color: #5e50a1;
+}
+
+.container {
+  background-color: aqua;
+
+}
+.content{
+  align-items: center;
+  justify-content: center;
+}
+ .content-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+} 
+
+div.content h1 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 56px;
+}
+div.content p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9ea0a5;
+}
+div.container .btn-edit {
+  background-color: #5e50a1;
+  color: white;
+  margin: 20x;
+  width: 20px;
+  height: px;
+  border-radius: 4px
+}
+
+
+
+
+

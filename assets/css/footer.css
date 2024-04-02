@@ -1,0 +1,32 @@
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  background: rgba(94, 80, 161, 1);
+  text-align: left;
+}
+.bottom {
+  display: block;
+  position: relative;
+  padding-bottom: 12px;
+}
+.bottom p {
+  margin-top: 20px;
+  display: inline-block;
+}
+.bottom ul {
+  list-style: none;
+  display: flex;
+  float: right;
+  justify-content: center;
+  gap: 2rem 1rem;
+}
+
+.bottom ul li {
+  margin-bottom: 90px;
+}
+
+li a {
+  text-decoration: none;
+  color:#FFFFFF
+}

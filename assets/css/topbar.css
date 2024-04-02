@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 25px;
+    background-color: whitesmoke;
+}
+
+.top-bar ul{
+    list-style: none;
+    display: flex;
+}
+
+.top-bar li{
+    margin: 0px 5px;
+}
